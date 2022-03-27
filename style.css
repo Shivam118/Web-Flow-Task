@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+body{
+    width:100vw;
+    font-family: 'Poppins', sans-serif;
+}
+header .Notice{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    color:white;
+    background: linear-gradient(to right, #1a5ee7, #f93f78);
+    font-size:13px;
+    animation: notice infinite 1.25s;
+}
+@keyframes notice{
+    0%{
+        font-size: 13px;
+    }
+    40%{
+        font-size: 12px;
+    }
+    80%{
+        font-size:13px;
+    }
+}
+header .Navbar{
+    height:125px;
+    width:100vw;
+    background:#1a62f2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 15vw;
+}
+header .Navbar .brandName{
+    width:30vw;
+}
+header .Navbar .brandName img{
+    width:180px;
+}
+header .Navbar ul{
+    width:60vw;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+header .Navbar ul li{
+    list-style: none;
+}
+header .Navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    font-weight:300;
+    padding:10px 15px;
+    position:relative;
+    bottom:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .Navbar ul li a:hover{
+    /* text-decoration: none; */
+    border-bottom:1px solid white;
+    color:rgba(255,255,255,0.9);
+    bottom:1px;
+}
+header .Navbar ul li a span{
+    font-size: 24px;
+}
+header .Navbar ul li .signup{
+    background:white;
+    color:#1a62f2;
+    border-radius:30px;
+    padding:10px 20px;
+    font-size:15px;
+}
+header .Navbar ul li .signup:hover{
+    color:#1a62f2;
+}
+header .Navbar ul li .login{
+    border:1px solid white;
+    border-radius:20px;
+    padding:10px 20px;
+    font-size:15px;
+}
+header .Navbar ul li .login:hover{
+    background:white;
+    color:#1a62f2;
+}
+section .section1{
+    height:700px;
+    background: rgb(255, 129, 129);
+}
