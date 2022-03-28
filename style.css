@@ -163,6 +163,93 @@ header .Navbar ul li .login:hover {
   text-decoration: none;
 }
 
+.section2{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:50px 0;
+}
+.section2 .leftpanel,
+.section2 .rightpanel{
+  width:40vw;
+  padding:0 5vw;
+}
+.section2 .leftpanel h1{
+  font-size:40px;
+  color:#222222;
+  font-weight: 800;
+  line-height:1.1;
+}
+.section2 .leftpanel p{
+  line-height:2;
+  font-weight:500;
+  color:#444444;
+  font-size:18px;
+}
+.section2 .leftpanel img{
+  width:100%;
+}
+
+.section2 .rightpanel table{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  height:100%;
+}
+.section2 .rightpanel table tr{
+  display: flex;
+  justify-content: center;
+  align-items:stretch;
+}
+.section2 .rightpanel table tr:nth-child(2n+1) td{
+  padding:25px 0px 10px 0px;
+}
+.section2 .rightpanel table tr td:nth-child(1){
+  width:25%;
+}
+.section2 .rightpanel table tr td:nth-child(2){
+  width:75%;
+}
+.section2 .rightpanel table tr:nth-child(2n+1) td:nth-child(2),
+.section2 .rightpanel table tr:nth-child(2n) td{
+  padding:0px 20px;
+}
+.section2 .rightpanel table tr:nth-child(2n+1) td:nth-child(2){
+  display: flex;
+  align-items: center;
+}
+.section2 .rightpanel table td .imgBox{
+  width:70px;
+  height:70px;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .rightpanel table td .imgBox img{
+  width:100%;
+  border-radius:5px;
+}
+.section2 .rightpanel table tr:nth-child(1) td .imgBox{
+  background:#fdeed9;
+}
+.section2 .rightpanel table tr:nth-child(3) td .imgBox{
+background: #fbdae6;
+}
+.section2 .rightpanel table tr:nth-child(5) td .imgBox{
+background: #fbebe9;
+}
+.section2 .rightpanel table tr:nth-child(7) td .imgBox{
+background: #d2f3e8;
+}
+.section2 .rightpanel table tr:nth-child(2n+1) td:nth-child(2){
+  font-size:22px;
+  font-weight:600;
+}
+
+
+
 .section3 {
   display: flex;
   align-items: center;
@@ -213,6 +300,7 @@ header .Navbar ul li .login:hover {
   width: 95%;
   font-size: 20px;
   font-weight: 300;
+  line-height:1.5;
 }
 .section3 .container ol {
   list-style-type: decimal-leading-zero;
@@ -220,17 +308,89 @@ header .Navbar ul li .login:hover {
 }
 .section3 .container ol li {
   font-size: 22px;
-  padding: 15px 0px;
+  padding: 20px 0px;
   border-bottom: 1px solid white;
 }
 .section3 .container ol li::marker {
   font-size: 35px;
   font-weight: 600;
 }
+
+.section4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4 .container{
+  background:url('https://uploads-ssl.webflow.com/606c4d4ed5ba7ca3bc774c4c/61c35be83abf43a0c35f8976_ebook-CTA-bg.png');
+  width:70vw;
+  padding:70px 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.section4 .container h1{
+  font-weight:700;
+  font-size:40px;
+  text-align: center;
+  background: -webkit-linear-gradient(left ,#315bdc, #da4387);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section4 .container h3{
+  color:white;
+  font-size:20px;
+  font-weight:300;
+  padding:15px 0px;
+  text-align: center;
+}
+.section4 .container .txtbtn {
+  background: white;
+  width: 100%;
+  border: 1.5px solid #9abcff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.section4 .container .txtbtn input,
+.section4 .container .txtbtn button {
+  height: 40px;
+  font-size: 16px;
+}
+.section4 .container .txtbtn input {
+  padding: 3px 10px;
+  border: none;
+}
+.section4 .container .txtbtn input:focus {
+  outline: none;
+}
+.section4 .container .txtbtn Button {
+  background: linear-gradient(to right, #1d5fe7, #8b7bf5);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+.section4 .container .txtbtn Button a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
 .section5 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding:80px 0 40px 0;
 }
 
 .section5 .container {
@@ -311,3 +471,33 @@ header .Navbar ul li .login:hover {
   border-radius: 2rem;
   text-align: left;
 }
+
+.section6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section6 .container{
+  width:70vw;
+  padding:50px 5vw;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+}
+.section6 .container img{
+  width:30%;
+}
+.section6 .container .author{
+  width:70%;
+  padding:10px 100px;
+}
+.section6 .container .author span{
+  color:blue;
+  font-size:14px;
+}
+.section6 .container .author h1{
+  font-size:35px;
+  font-weight: 800;
+}
+
