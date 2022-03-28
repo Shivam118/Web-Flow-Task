@@ -522,3 +522,39 @@ header .Navbar ul li .login:hover {
   line-height: 2;
   font-weight: 500;
 }
+footer{
+  background:#1a62f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container{
+  width:70vw;
+  height:1000px;
+  padding:20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+}
+footer .container div{
+  height:100%;
+  padding:0 20px;
+  width:20%;
+}
+footer .container div ul li{
+  list-style: none;
+  color:white;
+  font-weight:300;
+  font-size: 15px;
+}
+footer .container .box1{
+  display: flex;
+  flex-direction: column;
+}
+footer .container .box1 img{
+  width:200px;
+}
+footer .container .box1 span{
+  color:white;
+}
